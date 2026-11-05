@@ -1,0 +1,30 @@
+Dans un navigateur Web, saisissez :
+http://readynas.com/forum/faq.php#How_do_I_re-install_the_firmware%3F
+
+Comment réinstaller le firmware ?
+Vous pouvez forcer une réinstallation du firmware du flash sur le disque. Ceci est utile si vous avez perdu votre mot de passe administrateur et souhaitez le rétablir par défaut, si des erreurs dans vos paramètres réseau ont rendu impossible la connexion au ReadyNAS ou si vous pensez que le système d'exploitation sur votre disque peut être corrompu d'une manière ou d'une autre. . Le processus de réinstallation du micrologiciel ne touchera pas votre volume de données.
+
+Voici les étapes :
+Éteignez le ReadyNAS.
+Localisez le trou d’épingle de réinitialisation.
+ReadyNAS 600/X6 : le sténopé se trouve à l'arrière dans le coin inférieur gauche.
+ReadyNAS 1000S/1100 : le sténopé est à l'avant.
+ReadyNAS NV/NV+/Duo : le sténopé se trouve à côté du port USB à l'arrière.
+Procurez-vous un trombone déplié et appuyez sur l'interrupteur caché dans le trou d'épingle lorsque l'appareil est hors tension, puis allumez le ReadyNAS en maintenant l'interrupteur enfoncé pendant environ 5 secondes.
+Vous verrez les voyants du lecteur à l’avant clignoter une fois. Relâchez immédiatement l'interrupteur. N'attendez pas le deuxième clignotement, car le ReadyNAS se réinitialisera aux paramètres d'usine par défaut et effacera vos données. Si vous voyez la LED clignoter une 2ème fois, coupez immédiatement l'alimentation par l'arrière.
+
+L'installation du micrologiciel commencera à partir de ce moment. Vous pouvez suivre la progression avec RAIDar. Votre mot de passe administrateur sera réinitialisé sur « infrant1 » (v3.01) ou « netgear1 » (v4.0+).
+
+NOTES PERSO :
+ReadyNAS Ultra 4
+Upgrade RAM 1Go -> 2Go 667Mhz DDR2
+Intel Atom D410 (supporte 4Go 800Mhz DDR2 max en mono channel)
+
+----------
+BOOT MENU
+----------
+Trombone bouton derriere jusqu'au démarrage
+Naviguer dans menu avec bouton backup-usb en facade
+Valider avec trombone bouton derriere
+
+Default admin password : password

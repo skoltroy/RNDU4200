@@ -1,0 +1,29 @@
+cat /etc/apt/sources.list
+
+deb https://apt.readynas.com/packages/readynasos 6.9.6 updates apps main
+deb http://mirrors.kernel.org/debian jessie main
+deb http://security.debian.org/ jessie/updates main
+
+su -
+password(admin)
+
+vi /etc/apt/sources.list
+
+deb https://apt.readynas.com/packages/readynasos 6.9.6 updates apps main
+#deb http://mirrors.kernel.org/debian jessie main
+#deb http://security.debian.org/ jessie/updates main
+deb [trusted=yes] http://archive.kernel.org/debian-archive/debian jessie main contrib non-free 
+deb [trusted=yes] http://archive.kernel.org/debian-archive/debian jessie-backports main contrib non-free 
+deb [trusted=yes] http://archive.debian.org/debian-security jessie/updates main non-free contrib
+
+# i au debut de ligne + ESC
+# o pour inserer en dessous
+# :q! pour annuler
+# :wq pour valider
+
+:wq
+
+vi /etc/apt/apt.conf
+
+Get::AllowUnauthenticated true;
+Acquire::Check-Valid-Until false;
