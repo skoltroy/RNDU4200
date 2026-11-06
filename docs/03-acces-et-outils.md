@@ -1,5 +1,10 @@
 # Découverte et accès au NAS
 
+<p>
+  <img src="readynasultra4-1.png" alt="ReadyNAS Ultra 4, face avant fermée" width="260">
+  <img src="readynasultra4-2.png" alt="ReadyNAS Ultra 4, porte ouverte et tiroirs visibles" width="260">
+</p>
+
 ## Découvrir l'adresse du ReadyNAS
 
 Le NAS doit être connecté au même réseau local que le poste d'administration.
@@ -71,4 +76,3 @@ par exemple `\\NAS\NomDuPartage`. Cela n'accorde pas l'accès à toute
 l'arborescence du système d'exploitation. Le script `dirtyfix` n'effectue pas
 ce montage : il modifie des permissions ; voir
 [sa fiche de sécurité](05-script-permissions.md).
-

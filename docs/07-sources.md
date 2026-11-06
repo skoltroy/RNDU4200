@@ -1,5 +1,10 @@
 # Sources et références
 
+<p>
+  <img src="readynasultra4-1.png" alt="ReadyNAS Ultra 4, face avant fermée" width="260">
+  <img src="readynasultra4-2.png" alt="ReadyNAS Ultra 4, porte ouverte et tiroirs visibles" width="260">
+</p>
+
 Pages consultées le 5 novembre 2026. Les pages de support NETGEAR et les
 archives de firmware sont susceptibles de changer. Les procédures locales
 restent à valider sur l'appareil précis.
@@ -44,4 +49,3 @@ pas considérer un hash MD5 comme une preuve cryptographique suffisante.
   Explique où retrouver les versions historiques, dont Jessie.
 - [Debian — archive Jessie](https://archive.debian.org/debian/dists/jessie/)  
   Archive de paquets ; disponibilité ne signifie pas maintenance de sécurité.
-

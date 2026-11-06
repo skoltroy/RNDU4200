@@ -1,5 +1,10 @@
 # Inventaire du dossier
 
+<p>
+  <img src="readynasultra4-1.png" alt="ReadyNAS Ultra 4, face avant fermée" width="260">
+  <img src="readynasultra4-2.png" alt="ReadyNAS Ultra 4, porte ouverte et tiroirs visibles" width="260">
+</p>
+
 Les archives ZIP doivent être **extraites** avant d'utiliser leur contenu.
 Ne téléversez pas directement un ZIP dans l'interface du NAS. Les noms et le
 contenu ci-dessous ont été relevés dans le dossier local ; l'inventaire ne
@@ -67,4 +72,3 @@ commence par le **BIN R4toR6 6.9.5**, et termine par l'image **OS 6.9.6**.
 3. N'installer aucun utilitaire obsolète sur un poste sensible ou exposé.
 4. Les images de firmware sont des exécutables système : ne les flasher que
    sur le modèle/chemin prévus et après comparaison avec une source connue.
-

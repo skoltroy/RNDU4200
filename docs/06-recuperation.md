@@ -1,5 +1,10 @@
 # Récupération et dépannage
 
+<p>
+  <img src="readynasultra4-1.png" alt="ReadyNAS Ultra 4, face avant fermée" width="260">
+  <img src="readynasultra4-2.png" alt="ReadyNAS Ultra 4, porte ouverte et tiroirs visibles" width="260">
+</p>
+
 ## NAS absent du réseau
 
 1. Vérifier alimentation, câble Ethernet, voyants et lien du commutateur.
@@ -61,4 +66,3 @@ de permissions, mises à jour APT et réinitialisations. Ne pas retirer ou
 permuter les disques au hasard. Relever les messages d'état et préserver une
 copie des disques si les données sont irremplaçables ; demander une expertise
 de récupération plutôt que d'écrire sur les disques.
-

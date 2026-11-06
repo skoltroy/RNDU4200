@@ -1,5 +1,10 @@
 # Documentation ReadyNAS Ultra 4
 
+<p>
+  <img src="readynasultra4-1.png" alt="ReadyNAS Ultra 4, face avant fermée" width="260">
+  <img src="readynasultra4-2.png" alt="ReadyNAS Ultra 4, porte ouverte et tiroirs visibles" width="260">
+</p>
+
 ## Parcours conseillé
 
 1. Lire les avertissements et l'[inventaire](01-inventaire.md).
@@ -11,6 +16,11 @@
 4. Lire les fiches [Debian Jessie](04-debian-jessie.md) et
    [permissions](05-script-permissions.md) avant toute commande d'entretien.
 5. En cas de problème, consulter [récupération et dépannage](06-recuperation.md).
+
+## Schémas de migration
+
+- [Mode opératoire — rôles et transferts](migration-mode-operatoire.html)
+- [Enchaînement des étapes — fichiers et validations](migration-enchainement.html)
 
 ## Fichiers
 
@@ -28,4 +38,3 @@ Les étapes de migration et les observations matérielles combinent les fichiers
 présents dans ce dossier avec une procédure communautaire de 2015. Les
 éléments explicitement signalés comme « notes locales » ne sont pas des
 spécifications ou recommandations garanties par NETGEAR.
-

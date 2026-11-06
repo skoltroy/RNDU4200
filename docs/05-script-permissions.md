@@ -1,5 +1,10 @@
 # Script `dirtyfix-readynas-os6-treestructure.sh`
 
+<p>
+  <img src="readynasultra4-1.png" alt="ReadyNAS Ultra 4, face avant fermée" width="260">
+  <img src="readynasultra4-2.png" alt="ReadyNAS Ultra 4, porte ouverte et tiroirs visibles" width="260">
+</p>
+
 ## Conclusion
 
 Le nom du script peut faire penser à un montage réseau, mais son contenu
@@ -45,4 +50,3 @@ autorisé plutôt que d'ouvrir globalement les permissions. Pour connecter un
 lecteur Windows, utiliser un partage SMB explicitement publié, par exemple
 `\\NAS\NomDuPartage`. Un partage SMB global de `/` serait une exposition très
 dangereuse et n'est pas recommandé.
-

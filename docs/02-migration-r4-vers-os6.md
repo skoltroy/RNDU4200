@@ -1,5 +1,10 @@
 # Migration du RNDU4200 de RAIDiator 4 vers OS 6.9.6
 
+<p>
+  <img src="readynasultra4-1.png" alt="ReadyNAS Ultra 4, face avant fermée" width="260">
+  <img src="readynasultra4-2.png" alt="ReadyNAS Ultra 4, porte ouverte et tiroirs visibles" width="260">
+</p>
+
 > [!CAUTION]
 > **Cette migration est non officielle, risquée et destructive.** Les notes
 > locales et l'article communautaire indiquent une réinitialisation usine. La
@@ -7,6 +12,11 @@
 > être effacées. Considérez tous les disques comme perdus jusqu'à restauration
 > depuis une sauvegarde indépendante, vérifiée et lisible. RAID et RAIDar ne
 > remplacent pas une sauvegarde.
+
+## Schémas du parcours
+
+- [Mode opératoire — rôles et transferts](migration-mode-operatoire.html)
+- [Enchaînement des étapes — fichiers et validations](migration-enchainement.html)
 
 ## Statut et limites
 
@@ -135,4 +145,3 @@ configuration historique ; elle n'est pas une preuve de l'état final 6.9.6.
 Éviter les essais répétés de firmware et tout reset usine tant que les données
 ne sont pas sauvegardées. Noter le dernier écran, les voyants, l'adresse IP et
 les messages ; voir [Récupération et dépannage](06-recuperation.md).
-

@@ -1,5 +1,10 @@
 # Dépôts Debian Jessie et APT
 
+<p>
+  <img src="readynasultra4-1.png" alt="ReadyNAS Ultra 4, face avant fermée" width="260">
+  <img src="readynasultra4-2.png" alt="ReadyNAS Ultra 4, porte ouverte et tiroirs visibles" width="260">
+</p>
+
 > [!WARNING]
 > ReadyNAS OS 6.9.6 s'appuie sur une base Debian ancienne. Debian 8 « Jessie »
 > a perdu son support de sécurité régulier en juin 2018 et son support LTS en
@@ -78,4 +83,3 @@ La note locale utilise `vi` et la connexion root. Avant édition :
 La documentation Debian confirme le statut archivé de Jessie et la disponibilité
 des anciennes distributions dans son archive officielle. Voir
 [Sources](07-sources.md).
-

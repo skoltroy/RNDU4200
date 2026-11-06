@@ -1,5 +1,10 @@
 # Documentation du NETGEAR ReadyNAS Ultra 4 (RNDU4200)
 
+<p>
+  <img src="docs/readynasultra4-1.png" alt="ReadyNAS Ultra 4, face avant fermée" width="260">
+  <img src="docs/readynasultra4-2.png" alt="ReadyNAS Ultra 4, porte ouverte et tiroirs visibles" width="260">
+</p>
+
 Ce dossier rassemble les outils, firmwares, notes et documents utilisés pour
 faire fonctionner un ReadyNAS Ultra 4. La documentation rédigée se trouve dans
 [`docs/README.md`](docs/README.md).
@@ -13,6 +18,8 @@ faire fonctionner un ReadyNAS Ultra 4. La documentation rédigée se trouve dans
 ## Accès rapide
 
 - [Parcours de migration vers OS 6.9.6](docs/02-migration-r4-vers-os6.md)
+- [Schéma du mode opératoire](docs/migration-mode-operatoire.html)
+- [Schéma de l'enchaînement des étapes](docs/migration-enchainement.html)
 - [Inventaire commenté des fichiers](docs/01-inventaire.md)
 - [RAIDar, SSH et transfert de fichiers](docs/03-acces-et-outils.md)
 - [Dépôts Debian Jessie archivés : contexte et précautions](docs/04-debian-jessie.md)
@@ -34,4 +41,3 @@ faire fonctionner un ReadyNAS Ultra 4. La documentation rédigée se trouve dans
   des signatures comme configuration normale.
 - Le script `ssh/dirtyfix-readynas-os6-treestructure.sh` ne monte pas de
   lecteur réseau : il modifie en masse propriétaires et permissions.
-
