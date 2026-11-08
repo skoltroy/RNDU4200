@@ -15,8 +15,13 @@
 
 ## Schémas du parcours
 
+### Offline
 - [Mode opératoire — rôles et transferts](migration-mode-operatoire.html)
 - [Enchaînement des étapes — fichiers et validations](migration-enchainement.html)
+
+### Online
+- [Mode opératoire — rôles et transferts](https://html-preview.github.io/?url=https://github.com/skoltroy/RNDU4200/blob/main/docs/migration-mode-operatoire.html)
+- [Enchaînement des étapes — fichiers et validations](https://html-preview.github.io/?url=https://github.com/skoltroy/RNDU4200/blob/main/docs/migration-enchainement.html)
 
 ## Statut et limites
 
